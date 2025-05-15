@@ -1,0 +1,28 @@
+{
+  "name": "my-typescript-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "clean": "gts clean",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "gts lint",
+    "compile": "tsc",
+    "fix": "gts fix",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run lint"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "gts": "^6.0.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@netlify/functions": "^3.1.8"
+  }
+}
