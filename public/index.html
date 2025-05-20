@@ -24,7 +24,9 @@
         const response = await fetch('/.netlify/functions/webhook', {
           method: 'POST',
           body: JSON.stringify({
-            region: 'kanto'
+            id: '37573536-31da-4642-a8d7-8e8280145fd2',
+            type: 'job.ready',
+            sessionId: '37573536-31da-4642-a8d7-8e8280145fd2',
           })
         })
           .then(response => response.json())

@@ -1,0 +1,11 @@
+{
+  "id": "a0cc67bd-c29a-47a6-a8f9-6274dd53e273",
+  "type": "job.server.relay",
+  "payload": {
+    "type": "conversation.item.input_audio_transcription.completed",
+    "event_id": "event_BXV7YYNjY46nsQhbxKPUM",
+    "item_id": "item_BXV7WrhtrB4zPDs7Y51i6",
+    "content_index": 0,
+    "transcript": "Bye-bye\n"
+  }
+}

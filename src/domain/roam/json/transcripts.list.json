@@ -1,0 +1,270 @@
+{
+	"transcripts": [
+		{
+			"id": "6f157186-19df-4f5e-bbe3-f52e7a1ae157",
+			"meetingId": "7a13fbd3-e59b-46ee-b7a6-d37064f8119a",
+			"start": "2025-05-15T15:46:54Z",
+			"end": "2025-05-15T15:49:13Z",
+			"participants": [
+				{
+					"name": "Sang Yum",
+					"email": "syum@amplifyfederal.com",
+					"user": "U-b2647e60-a6c2-4632-8b1b-8d82b045cde7"
+				}
+			]
+		},
+		{
+			"id": "387ec093-8613-4455-ba4b-b78843359a2f",
+			"meetingId": "414b8faa-785f-47bd-b5f5-c891ffbe17d4",
+			"start": "2025-05-15T15:33:00Z",
+			"end": "2025-05-15T15:34:11Z",
+			"participants": [
+				{
+					"name": "Sang Yum",
+					"email": "syum@amplifyfederal.com",
+					"user": "U-b2647e60-a6c2-4632-8b1b-8d82b045cde7"
+				}
+			]
+		},
+		{
+			"id": "e230dce3-8d3f-4d1e-8b0e-598aefbe46ab",
+			"meetingId": "9cc0a3ce-66ba-445e-8977-4e8ab0e84359",
+			"start": "2025-05-15T15:15:13Z",
+			"end": "2025-05-15T15:15:46Z",
+			"participants": [
+				{
+					"name": "Sang Yum",
+					"email": "syum@amplifyfederal.com",
+					"user": "U-b2647e60-a6c2-4632-8b1b-8d82b045cde7"
+				}
+			]
+		},
+		{
+			"id": "c685a8d5-1959-4f9d-93b9-c896493ec5ea",
+			"meetingId": "2b411e4f-4423-4138-a9e7-21de2c822e75",
+			"start": "2025-05-14T16:41:09Z",
+			"end": "2025-05-14T17:04:26Z",
+			"participants": [
+				{
+					"name": "Andrew Plofchan",
+					"email": "andrew@amplifyfederal.com",
+					"user": "U-aa60bebd-6ef7-4571-a9b6-0e1579313363"
+				},
+				{
+					"name": "Brad Starkenberg",
+					"email": "bstarkenberg@amplifyfederal.com",
+					"user": "U-1283dda3-2073-450e-8e0d-2aeae5dec829"
+				},
+				{
+					"name": "Sang Yum",
+					"email": "syum@amplifyfederal.com",
+					"user": "U-b2647e60-a6c2-4632-8b1b-8d82b045cde7"
+				}
+			]
+		},
+		{
+			"id": "7ca5e7a9-e7b8-4204-a657-fea1389daf44",
+			"meetingId": "fe67071a-df52-4549-bbfd-4955dd38e90f",
+			"start": "2025-05-14T14:10:19Z",
+			"end": "2025-05-14T14:11:15Z",
+			"participants": [
+				{
+					"name": "Daniel Witenberg",
+					"email": "dwitenberg@amplifyfederal.com",
+					"user": "U-d816b624-1356-4c0a-a416-5fa6ba993947"
+				},
+				{
+					"name": "daniel",
+					"email": "daniel@witenberg.net",
+					"user": "U-4cfb0d31-671c-4a89-b4d5-76dc0674d348"
+				}
+			]
+		},
+		{
+			"id": "2c4ca1e9-bd37-4d8f-91b7-d2e6b66edeca",
+			"meetingId": "8957fc2e-5c4d-4463-9547-5d8240e77cba",
+			"start": "2025-05-13T14:50:02Z",
+			"end": "2025-05-13T14:51:01Z",
+			"participants": [
+				{
+					"name": "Sang Yum",
+					"email": "syum@amplifyfederal.com",
+					"user": "U-b2647e60-a6c2-4632-8b1b-8d82b045cde7"
+				}
+			]
+		},
+		{
+			"id": "49e243d0-3c0c-43c6-8344-ab80f56d0bc8",
+			"meetingId": "7257e802-cf6e-4f88-8964-8ac669944cf5",
+			"start": "2025-05-12T15:46:26Z",
+			"end": "2025-05-12T15:46:54Z",
+			"participants": [
+				{
+					"name": "Sang Yum",
+					"email": "syum@amplifyfederal.com",
+					"user": "U-b2647e60-a6c2-4632-8b1b-8d82b045cde7"
+				}
+			]
+		},
+		{
+			"id": "b093bcc3-fbfd-4e9d-b7bd-91f49df52ce3",
+			"meetingId": "2a5543b9-37fe-41d0-a942-838abad9e334",
+			"start": "2025-05-08T17:38:27Z",
+			"end": "2025-05-08T17:38:55Z",
+			"participants": [
+				{
+					"name": "Sang Yum",
+					"email": "syum@amplifyfederal.com",
+					"user": "U-b2647e60-a6c2-4632-8b1b-8d82b045cde7"
+				}
+			]
+		},
+		{
+			"id": "b59a8356-443a-4789-a82f-19f78f6f468a",
+			"meetingId": "d73b162d-dd91-4b01-883a-d678be2e9c65",
+			"start": "2025-05-08T17:08:06Z",
+			"end": "2025-05-08T17:08:29Z",
+			"participants": [
+				{
+					"name": "Brad Starkenberg",
+					"email": "bstarkenberg@amplifyfederal.com",
+					"user": "U-1283dda3-2073-450e-8e0d-2aeae5dec829"
+				}
+			]
+		},
+		{
+			"id": "c67ac7df-e80e-4efd-91b5-d03771f69034",
+			"meetingId": "c525da9c-42e2-4737-a7e5-a96c6321dbc0",
+			"start": "2025-05-08T16:27:54Z",
+			"end": "2025-05-08T16:31:36Z",
+			"participants": [
+				{
+					"name": "Brad Starkenberg",
+					"email": "bstarkenberg@amplifyfederal.com",
+					"user": "U-1283dda3-2073-450e-8e0d-2aeae5dec829"
+				},
+				{
+					"name": "Sang Yum",
+					"email": "syum@amplifyfederal.com",
+					"user": "U-b2647e60-a6c2-4632-8b1b-8d82b045cde7"
+				},
+				{
+					"name": "Daniel Witenberg",
+					"email": "dwitenberg@amplifyfederal.com",
+					"user": "U-d816b624-1356-4c0a-a416-5fa6ba993947"
+				}
+			]
+		},
+		{
+			"id": "cae1d188-db29-4f23-9fc0-428fc41b7f4e",
+			"meetingId": "c525da9c-42e2-4737-a7e5-a96c6321dbc0",
+			"start": "2025-05-08T16:23:37Z",
+			"end": "2025-05-08T16:23:46Z",
+			"participants": [
+				{
+					"name": "Brad Starkenberg",
+					"email": "bstarkenberg@amplifyfederal.com",
+					"user": "U-1283dda3-2073-450e-8e0d-2aeae5dec829"
+				},
+				{
+					"name": "Sang Yum",
+					"email": "syum@amplifyfederal.com",
+					"user": "U-b2647e60-a6c2-4632-8b1b-8d82b045cde7"
+				}
+			]
+		},
+		{
+			"id": "42684f87-1609-47bf-bb1a-0295b87cc9de",
+			"meetingId": "3a00db92-9541-4dd4-bded-b2d178283ea1",
+			"start": "2025-05-08T16:18:03Z",
+			"end": "2025-05-08T16:23:37Z",
+			"participants": [
+				{
+					"name": "Sang Yum",
+					"email": "syum@amplifyfederal.com",
+					"user": "U-b2647e60-a6c2-4632-8b1b-8d82b045cde7"
+				},
+				{
+					"name": "Brad Starkenberg",
+					"email": "bstarkenberg@amplifyfederal.com",
+					"user": "U-1283dda3-2073-450e-8e0d-2aeae5dec829"
+				}
+			]
+		},
+		{
+			"id": "e1c50498-d148-4aeb-860e-467e686de357",
+			"meetingId": "529e44ed-3f82-4b7c-afd3-c95dcfd43c1b",
+			"start": "2025-05-07T21:23:44Z",
+			"end": "2025-05-07T21:24:35Z",
+			"participants": [
+				{
+					"name": "Sang Yum",
+					"email": "syum@amplifyfederal.com",
+					"user": "U-b2647e60-a6c2-4632-8b1b-8d82b045cde7"
+				},
+				{
+					"name": "Brad Starkenberg",
+					"email": "bstarkenberg@amplifyfederal.com",
+					"user": "U-1283dda3-2073-450e-8e0d-2aeae5dec829"
+				}
+			]
+		},
+		{
+			"id": "67ad4124-ec7d-4844-b7a3-fd2fb8d72165",
+			"meetingId": "529e44ed-3f82-4b7c-afd3-c95dcfd43c1b",
+			"start": "2025-05-07T19:48:14Z",
+			"end": "2025-05-07T19:48:27Z",
+			"participants": [
+				{
+					"name": "Daniel Witenberg",
+					"email": "dwitenberg@amplifyfederal.com",
+					"user": "U-d816b624-1356-4c0a-a416-5fa6ba993947"
+				},
+				{
+					"name": "Brad Starkenberg",
+					"email": "bstarkenberg@amplifyfederal.com",
+					"user": "U-1283dda3-2073-450e-8e0d-2aeae5dec829"
+				}
+			]
+		},
+		{
+			"id": "9bf31c70-1c52-407f-aac7-d2935264e595",
+			"meetingId": "caeb9c15-e2f9-48f8-a079-51b175681662",
+			"start": "2025-05-06T18:45:04Z",
+			"end": "2025-05-06T18:45:09Z",
+			"participants": [
+				{
+					"name": "Daniel Witenberg",
+					"email": "dwitenberg@amplifyfederal.com",
+					"user": "U-d816b624-1356-4c0a-a416-5fa6ba993947"
+				}
+			]
+		},
+		{
+			"id": "69745936-be8e-45d6-9e56-7efb4b31556d",
+			"meetingId": "2cd1c251-58e5-454a-b361-00784ae1bc52",
+			"start": "2025-05-06T17:46:38Z",
+			"end": "2025-05-06T17:46:59Z",
+			"participants": [
+				{
+					"name": "Daniel Witenberg",
+					"email": "dwitenberg@amplifyfederal.com",
+					"user": "U-d816b624-1356-4c0a-a416-5fa6ba993947"
+				}
+			]
+		},
+		{
+			"id": "84ec7ce3-12a0-4ee3-aa38-4f70ba092255",
+			"meetingId": "c8b75c75-2475-417e-af42-b8a6a4517da1",
+			"start": "2025-05-02T20:27:20Z",
+			"end": "2025-05-02T20:27:51Z",
+			"participants": [
+				{
+					"name": "Daniel Witenberg",
+					"email": "dwitenberg@amplifyfederal.com",
+					"user": "U-d816b624-1356-4c0a-a416-5fa6ba993947"
+				}
+			]
+		}
+	]
+}
