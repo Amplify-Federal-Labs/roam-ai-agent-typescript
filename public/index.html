@@ -24,9 +24,27 @@
         const response = await fetch('/.netlify/functions/webhook', {
           method: 'POST',
           body: JSON.stringify({
-            id: '37573536-31da-4642-a8d7-8e8280145fd2',
-            type: 'job.ready',
-            sessionId: '37573536-31da-4642-a8d7-8e8280145fd2',
+            "id":"43871e14-44dd-490e-899e-e08583355530",
+            "meetingId":"e75787a0-14e0-477a-81cb-d48d2e99380f",
+            "start":"2025-05-20T19:02:54Z",
+            "end":"2025-05-20T19:03:31Z",
+            "participants":[
+              {
+                "name":"Sang Yum",
+                "email":"syum@amplifyfederal.com",
+                "user":"U-b2647e60-a6c2-4632-8b1b-8d82b045cde7"
+              }
+            ],
+            "cues":[
+              {
+                "speaker":"Sang Yum",
+                "text":"I'm testing out your webhook capability. K. Bye.",
+                "start":"2025-05-20T19:03:00.106Z",
+                "end":"2025-05-20T19:03:08.587Z",
+                "startOffset":6106,
+                "endOffset":14587
+              }
+            ]
           })
         })
           .then(response => response.json())

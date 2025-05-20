@@ -30,7 +30,10 @@
   },
   "dependencies": {
     "@netlify/functions": "^3.1.8",
-    "axios": "^1.9.0"
+    "axios": "^1.9.0",
+    "dotenv": "^16.5.0",
+    "langbase": "^1.1.59",
+    "uuid": "^11.1.0"
   },
   "engines": {
     "node": "22.*"
