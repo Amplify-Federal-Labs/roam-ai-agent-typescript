@@ -11,8 +11,9 @@ class RoamClient implements RoamInterface {
   }
 
   async getTranscripts(): Promise<Transcript[]> {
-    const {data} =
-      await this.client.get<GetTranscriptsResponse>('/transcript.list');
+    const {data} = await this.client.get<GetTranscriptsResponse>(
+      '/v0/transcript.list',
+    );
     return data.transcripts;
   }
 
@@ -24,7 +25,7 @@ class RoamClient implements RoamInterface {
     };
 
     const {data: transcript} = await this.client.get<GetTranscriptInfoResponse>(
-      '/transcript.info',
+      '/v0/transcript.info',
       requestConfig,
     );
 
@@ -32,4 +33,4 @@ class RoamClient implements RoamInterface {
   }
 }
 
-export type {RoamClient};
+export {RoamClient};

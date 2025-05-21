@@ -1,8 +1,6 @@
 import {Handler, HandlerEvent, HandlerContext} from '@netlify/functions';
 import {JobReadyPayload} from '../../src/clients/roam/payload/JobReadyPayload';
-import {TranscriptSavedPayload} from '../../src/clients/roam/payload/TranscriptSavedPayload';
-import {uploadTranscript} from '../../src/clients/langbase/uploadTranscript';
-import {v4} from 'uuid';
+import {uploadMeetingTranscript} from '../../src/utils/uploadMeetingTranscript';
 
 const handler: Handler = async (
   event: HandlerEvent,
@@ -21,25 +19,7 @@ const handler: Handler = async (
         // nothing to do for JobServerRelay for now.
       }
     } else {
-      // for now, this must be TranscriptSaved event
-      const transcripSavedPayload: TranscriptSavedPayload = payload;
-
-      const timeStamp = (new Date()).toUTCString();
-      const participants = transcripSavedPayload.participants
-        .map(p => p.name)
-        .join(',');
-
-      const transcript = transcripSavedPayload.cues.reduce(
-        (prev, curr) => `${prev}\n\n${curr.speaker}: ${curr.text}`,
-        `Date: ${timeStamp}\n\nParticipants: ${participants}`,
-      );
-
-      console.log(
-        `Uploading transcript for meeting: ${transcripSavedPayload.meetingId} ${transcript}`,
-      );
-
-      // TODO: Use meeting id from the payload
-      await uploadTranscript(v4(), transcript);
+      await uploadMeetingTranscript(payload);
     }
   }
 
