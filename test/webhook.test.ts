@@ -1,5 +1,5 @@
 import {HandlerEvent, HandlerContext} from '@netlify/functions';
-import {handler} from './webhook';
+import {handler} from '../netlify/functions/webhook';
 import jobReadyEvent from './json/jobReady.json';
 import {mock, instance} from 'ts-mockito';
 
