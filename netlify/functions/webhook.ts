@@ -9,19 +9,19 @@ const handler: Handler = async (
 ) => {
   if (event.body) {
     console.log(event.body);
-    const payload = JSON.parse(event.body);
+    const eventBody = JSON.parse(event.body);
 
-    if (payload['type']) {
-      const payloadType = payload['type'];
+    if (eventBody['type']) {
+      const payloadType = eventBody['type'];
       if (payloadType === 'job.ready') {
-        const jobReadyPayload: JobReadyPayload = payload;
+        const jobReadyPayload: JobReadyPayload = eventBody['payload'];
         console.log(`Knock ready - sessionId: ${jobReadyPayload.sessionId}`);
       } else {
         // no op
         // nothing to do for JobServerRelay for now.
       }
     } else {
-      const transcriptSavedPayload: TranscriptSavedPayload = payload;
+      const transcriptSavedPayload: TranscriptSavedPayload = eventBody;
       await uploadMeetingTranscript(transcriptSavedPayload);
     }
   }
