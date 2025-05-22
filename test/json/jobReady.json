@@ -1,8 +1,5 @@
 {
+  "id":"3bc29a73-41a2-4257-9815-31ddd8c22d4a",
   "type":"job.ready",
-  "payload": {
-    "id": "a0cc67bd-c29a-47a6-a8f9-6274dd53e273",
-    "type": "job.ready",
-    "sessionId": "a0cc67bd-c29a-47a6-a8f9-6274dd53e273"
-  }
+  "sessionId":"0196f937-bc2c-7446-a4a4-a264882b5789"
 }

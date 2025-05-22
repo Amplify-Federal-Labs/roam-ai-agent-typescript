@@ -8,17 +8,20 @@ const handler: Handler = async (
   context: HandlerContext,
 ) => {
   if (event.body) {
-    console.log(event.body);
     const eventBody = JSON.parse(event.body);
 
     if (eventBody['type']) {
-      const payloadType = eventBody['type'];
-      if (payloadType === 'job.ready') {
-        const jobReadyPayload: JobReadyPayload = eventBody['payload'];
+      const eventType = eventBody['type'];
+      if (eventType === 'job.ready') {
+        const jobReadyPayload: JobReadyPayload = eventBody;
         console.log(`Knock ready - sessionId: ${jobReadyPayload.sessionId}`);
-      } else {
+      } else if (eventType === 'job.server.relay') {
+        const payload = eventBody['payload'];
+        console.log(`Relaying Server Events: ${JSON.stringify(payload)}`);
         // no op
         // nothing to do for JobServerRelay for now.
+      } else {
+        console.error(`Unknown event type: ${JSON.stringify(eventBody)}`);
       }
     } else {
       const transcriptSavedPayload: TranscriptSavedPayload = eventBody;
