@@ -1,6 +1,7 @@
 import {Handler, HandlerEvent, HandlerContext} from '@netlify/functions';
 import {JobReadyPayload} from '../../src/clients/roam/payload/JobReadyPayload';
 import {uploadMeetingTranscript} from '../../src/utils/uploadMeetingTranscript';
+import { TranscriptSavedPayload } from '../../src/clients/roam/payload/TranscriptSavedPayload';
 
 const handler: Handler = async (
   event: HandlerEvent,
@@ -19,7 +20,8 @@ const handler: Handler = async (
         // nothing to do for JobServerRelay for now.
       }
     } else {
-      await uploadMeetingTranscript(payload);
+      const transcriptSavedPayload: TranscriptSavedPayload = payload;
+      await uploadMeetingTranscript(transcriptSavedPayload);
     }
   }
 
