@@ -1,13 +1,14 @@
 import {Handler, HandlerEvent, HandlerContext} from '@netlify/functions';
 import {JobReadyPayload} from '../../src/clients/roam/payload/JobReadyPayload';
 import {uploadMeetingTranscript} from '../../src/utils/uploadMeetingTranscript';
-import { TranscriptSavedPayload } from '../../src/clients/roam/payload/TranscriptSavedPayload';
+import {TranscriptSavedPayload} from '../../src/clients/roam/payload/TranscriptSavedPayload';
 
 const handler: Handler = async (
   event: HandlerEvent,
   context: HandlerContext,
 ) => {
   if (event.body) {
+    console.log(event.body);
     const payload = JSON.parse(event.body);
 
     if (payload['type']) {
